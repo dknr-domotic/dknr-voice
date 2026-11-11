@@ -53,7 +53,7 @@ Rhasspy 2.5 (protocole Hermes sur MQTT) fonctionnait bien mais n'est plus mainte
 
 ## Etat d'avancement
 
-* **Matériel** : boîtiers ESP32 retenus (novembre 2026), Voice PE recommandé. Un boîtier à acheter pour le prototype.
+* **Matériel** : boîtiers ESP32 retenus (novembre 2026), Voice PE retenu. Un boîtier commandé pour le prototype (en attente de stock, novembre 2026).
 * **Dépôt** : `dknr-domotic/dknr-voice` créé, ce document est le premier contenu.
 * Rien n'est encore développé.
 
