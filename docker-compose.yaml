@@ -1,0 +1,117 @@
+# DKNR Voice
+#
+# Required the following environement variables:
+# - DKNR_USERNAME
+# - DKNR_PASSWORD
+# - DKNR_SECRET
+#
+# Three services:
+# - dknr_voice: Node-RED, talks to the voice devices (ESPHome API, TCP 6053) and to the DKNR MQTT server,
+#   serves the spoken answers to the voice devices over HTTP (port 1880)
+# - dknr_voice_vosk: speech to text (Wyoming, TCP 10300), reads the sentence templates written by dknr_voice
+# - dknr_voice_piper: text to speech (Wyoming, TCP 10200), French voice
+#
+# The voice devices must reach the HTTP port of dknr_voice (1880 by default): use the IP address of the docker host.
+# Optional environment variables of dknr_voice:
+# - PORT: HTTP port of the dashboard, the Node-RED editor and the spoken answers (1880)
+# Prototype (version 0.1), one voice device and the voice devices configured by environment variables:
+# - DKNR_VOICE_URL: base URL of dknr_voice reached by the voice devices, ex: http://10.40.0.127:1880 (required for the answers)
+# - DKNR_VOICE_HOST: IP address of the voice device
+# - DKNR_VOICE_KEY: ESPHome API encryption key of the voice device (base64, see esphome/secrets.yaml.example)
+# - DKNR_VOICE_NAME / DKNR_VOICE_ROOM: name and room of the voice device (Boîtier / salon)
+# - DKNR_VOICE_DEVICES: JSON, DKNR entities of the devices used in the sentences, ex:
+#     {"test":{"entities":["zwave/12/switch"]},"temperature_salon":{"room":"le salon","entities":["zigbee/0x1234/temperature"]}}
+# - DKNR_VOICE_RESPONSE: voice (spoken answer for everything) or sound (short sound for the orders)
+# - DKNR_VOICE_VOICE: Piper voice (fr_FR-siwis-medium), must be the voice loaded by dknr_voice_piper
+#
+# DKNR Voice must use the same MQTT server as the other DKNR projects: set it in the "Configurer" page.
+# DKNR Voice: http://<docker host>:1880, Node-RED editor: http://<docker host>:1880/admin
+#
+name: DKNRVoice
+
+services:
+  dknr_voice:
+    container_name: dknr_voice
+    image: jcpd/dknr-voice:latest
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 512M
+    environment:
+      TZ: Europe/Paris
+      DKNR_USERNAME: ${DKNR_USERNAME}
+      DKNR_PASSWORD: ${DKNR_PASSWORD}
+      DKNR_SECRET: ${DKNR_SECRET}
+      # change the port (and the mapping below) if 1880 is already used on this host
+      PORT: 1880
+      DKNR_VOICE_URL: ${DKNR_VOICE_URL}
+      DKNR_VOICE_HOST: ${DKNR_VOICE_HOST}
+      DKNR_VOICE_KEY: ${DKNR_VOICE_KEY}
+      DKNR_VOICE_ROOM: ${DKNR_VOICE_ROOM:-salon}
+      DKNR_VOICE_DEVICES: ${DKNR_VOICE_DEVICES:-}
+    ports:
+      - "1880:1880"
+    volumes:
+      - dknr_voice:/data
+      - dknr_voice_sentences:/sentences
+    depends_on:
+      - dknr_voice_vosk
+      - dknr_voice_piper
+    healthcheck:
+      test: timeout 10s bash -c ':> /dev/tcp/127.0.0.1/$${PORT:-1880}' || exit 1
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 90s
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "20m"
+        max-file: "5"
+
+  dknr_voice_vosk:
+    container_name: dknr_voice_vosk
+    image: jcpd/dknr-voice-vosk:latest
+    restart: unless-stopped
+    # default: French, limited to the sentence templates, sentences outside them rejected
+    # to accept sentences close to the templates instead: command: --language fr --preload-language fr --correct-sentences 0.2
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 1G
+    volumes:
+      - dknr_voice_vosk:/data
+      - dknr_voice_sentences:/sentences
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "20m"
+        max-file: "5"
+
+  dknr_voice_piper:
+    container_name: dknr_voice_piper
+    image: rhasspy/wyoming-piper:latest
+    restart: unless-stopped
+    # French voices: fr_FR-siwis-medium, fr_FR-upmc-medium, fr_FR-tom-medium...
+    command: --voice fr_FR-siwis-medium
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 1G
+    volumes:
+      - dknr_voice_piper:/data
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "20m"
+        max-file: "5"
+
+volumes:
+  dknr_voice:
+  dknr_voice_sentences:
+  dknr_voice_vosk:
+  dknr_voice_piper:

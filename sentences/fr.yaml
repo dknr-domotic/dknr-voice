@@ -1,0 +1,38 @@
+# Phrases du prototype dknr-voice (version 0.1), écrites à la main.
+#
+# Plus tard, ce fichier sera généré par dknr-voice depuis la page Appareils.
+# On dit "in", wyoming-vosk renvoie "out" : ACTION|appareil|valeur.
+# Syntaxe des modèles : https://github.com/home-assistant/hassil
+#
+# Les mots doivent exister dans le vocabulaire du modèle français de vosk
+# (vosk-model-small-fr-0.22), sinon leur prononciation est devinée.
+
+language: fr
+
+sentences:
+  # allumer / éteindre
+  - in: "<allume> <le> {appareil}"
+    out: "SET|{appareil}|1"
+  - in: "<eteins> <le> {appareil}"
+    out: "SET|{appareil}|0"
+  # questions
+  - in: "quelle est la température [<du>] {piece}"
+    out: "GET|temperature|{piece}"
+  - in: "quelle température fait-il [<du>] {piece}"
+    out: "GET|temperature|{piece}"
+
+lists:
+  appareil:
+    values:
+      - in: "(prise de test|prise test)"
+        out: "test"
+  piece:
+    values:
+      - in: "salon"
+        out: "salon"
+
+expansion_rules:
+  allume: "(allume|allumer|mets en marche)"
+  eteins: "(éteins|éteint|éteindre|coupe|arrête)"
+  le: "[(le|la|les|l')]"
+  du: "(du|de la|des|dans le|dans la)"

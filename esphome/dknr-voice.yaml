@@ -1,0 +1,32 @@
+# DKNR Voice: firmware of a Home Assistant Voice Preview Edition used without Home Assistant
+#
+# The official configuration of the device is used as an ESPHome package, at a fixed version
+# (change the version only after checking that dknr-voice still works with it).
+# Only the name, the Wi-Fi and the key of the ESPHome API (encryption) are set here:
+# dknr-voice connects to the device with this key (page "Boîtiers").
+#
+# One file per device: copy this file (ex: dknr-voice-cuisine.yaml) and change the substitutions.
+# Secrets in secrets.yaml (see secrets.yaml.example), never in the repository.
+#
+# Build and flash (first time with USB, then over Wi-Fi):
+#   docker run --rm -it -v "${PWD}":/config --device=/dev/ttyACM0 esphome/esphome:2026.10 run dknr-voice.yaml
+
+substitutions:
+  name: dknr-voice-salon
+  friendly_name: DKNR Voice Salon
+
+packages:
+  voice_pe: github://esphome/home-assistant-voice-pe/home-assistant-voice.yaml@26.9.0
+
+esphome:
+  name: ${name}
+  name_add_mac_suffix: false
+  friendly_name: ${friendly_name}
+
+api:
+  encryption:
+    key: !secret dknr_voice_api_key
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password

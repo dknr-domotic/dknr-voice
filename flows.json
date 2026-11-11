@@ -1,0 +1,2048 @@
+[
+    {
+        "id": "4c2feff02c9aebaa",
+        "type": "tab",
+        "label": "common",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "48135a54600713e8",
+        "type": "tab",
+        "label": "custom",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "bd90043835651de6",
+        "type": "group",
+        "z": "4c2feff02c9aebaa",
+        "name": "common - home uri",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "be68f32eed43e834",
+            "2704252b42b3faaf"
+        ],
+        "x": 134,
+        "y": 279,
+        "w": 332,
+        "h": 82
+    },
+    {
+        "id": "f734a4fcce4a0802",
+        "type": "group",
+        "z": "4c2feff02c9aebaa",
+        "name": "common - boot",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "d536608ecbe6516c",
+            "0744af34f2373571",
+            "47f04f56e95961a5",
+            "def7f23476f92a9e",
+            "34e54b81fe18b33f",
+            "d0ee4b417bfa2bb7"
+        ],
+        "x": 134,
+        "y": 39,
+        "w": 942,
+        "h": 82
+    },
+    {
+        "id": "87038dcf749d44c6",
+        "type": "group",
+        "z": "4c2feff02c9aebaa",
+        "name": "common - icon uri",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "31368f26faeeeec5",
+            "066905a23ee18843",
+            "9f90cc93644f80c4",
+            "a49cdba72413a587",
+            "9ba5455a5674c8a7"
+        ],
+        "x": 134,
+        "y": 159,
+        "w": 852,
+        "h": 82
+    },
+    {
+        "id": "ced6b0d6d8aa764d",
+        "type": "group",
+        "z": "4c2feff02c9aebaa",
+        "name": "common - mqtt",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "05b0c0afa2f55df1",
+            "b18dc51cbf75cc24",
+            "4ca2b0783078bb87",
+            "99def6db6b13ba9c",
+            "30335bf1ac7b99bc",
+            "25ce94531dd6fbe4",
+            "d5bdaec879cbd196",
+            "02dccf8f780a61d9",
+            "49a4236523d8a934"
+        ],
+        "x": 144,
+        "y": 399,
+        "w": 512,
+        "h": 202
+    },
+    {
+        "id": "6f2c0bf97f866aa6",
+        "type": "group",
+        "z": "4c2feff02c9aebaa",
+        "name": "common - error",
+        "style": {
+            "fill": "#6f2fa0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "fc147ee782462bbe",
+            "8b870d19217142fa",
+            "9f55bfd681e97786"
+        ],
+        "x": 144,
+        "y": 639,
+        "w": 462,
+        "h": 82
+    },
+    {
+        "id": "94ca764ef2760841",
+        "type": "group",
+        "z": "4c2feff02c9aebaa",
+        "name": "common - ui",
+        "style": {
+            "fill": "#6f2fa0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "08a5cf610c97d769",
+            "7adf1bcdd6df3b31",
+            "8760610a1e45ffab",
+            "5f28408f430feddf",
+            "3681864d9f417484",
+            "ddab942f6d49a661",
+            "d3965b3ecbc6aae9",
+            "300df28f3025dc33",
+            "0154b8f75648b065",
+            "e453d1f77363ac46"
+        ],
+        "x": 144,
+        "y": 759,
+        "w": 1092,
+        "h": 202
+    },
+    {
+        "id": "9f3c5b4c8836214c",
+        "type": "group",
+        "z": "4c2feff02c9aebaa",
+        "name": "common - mqtt - form",
+        "style": {
+            "fill": "#6f2fa0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "269fe06d582be842",
+            "913d3318a27c57f9",
+            "8b76a374e82e1255",
+            "094401b4b908ed63",
+            "901bc3883a87d865",
+            "ca5c502dcbc1ee15"
+        ],
+        "x": 144,
+        "y": 999,
+        "w": 872,
+        "h": 82
+    },
+    {
+        "id": "9c1206c5da451f05",
+        "type": "group",
+        "z": "48135a54600713e8",
+        "name": "custom - describe",
+        "style": {
+            "fill": "#0070c0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "560e6e002d024584",
+            "8ee6be07d7909e4c",
+            "35b24e0f76e5a94d"
+        ],
+        "x": 114,
+        "y": 39,
+        "w": 700,
+        "h": 82
+    },
+    {
+        "id": "7b701e2ac877f68b",
+        "type": "group",
+        "z": "48135a54600713e8",
+        "name": "custom - menu",
+        "style": {
+            "fill": "#0070c0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "05ee84a284c109d7",
+            "f000685f71b06791",
+            "06a3852174fa19e7",
+            "646fb6195911ba44"
+        ],
+        "x": 114,
+        "y": 159,
+        "w": 700,
+        "h": 142
+    },
+    {
+        "id": "6c8a075a16eb0419",
+        "type": "group",
+        "z": "48135a54600713e8",
+        "name": "custom - state",
+        "style": {
+            "fill": "#0070c0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "13d113e7ff87baa8",
+            "479fd7f898bf2afd"
+        ],
+        "x": 114,
+        "y": 339,
+        "w": 700,
+        "h": 82
+    },
+    {
+        "id": "df7710b4b2c4e55b",
+        "type": "ui-base",
+        "name": "Tableau de bord",
+        "path": "/dashboard",
+        "appIcon": "/icon.png",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "none",
+        "navigationStyle": "none",
+        "titleBarStyle": "hidden",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true,
+        "allowInstall": false
+    },
+    {
+        "id": "877e716e64a22cf1",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094CE",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "2c5e094fee5ae877",
+        "type": "mqtt-broker",
+        "name": "MQTT",
+        "broker": "",
+        "port": "1883",
+        "clientid": "dkvoice",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "887b3087f3dda2eb",
+        "type": "ui-page",
+        "name": "mqtt",
+        "ui": "df7710b4b2c4e55b",
+        "path": "/mqtt",
+        "icon": "cog",
+        "layout": "notebook",
+        "theme": "877e716e64a22cf1",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 3,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "4c116fe2697e0aa9",
+        "type": "ui-group",
+        "name": "Configurer MQTT",
+        "page": "887b3087f3dda2eb",
+        "width": "3",
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "be68f32eed43e834",
+        "type": "http in",
+        "z": "4c2feff02c9aebaa",
+        "g": "bd90043835651de6",
+        "name": "",
+        "url": "/",
+        "method": "get",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 210,
+        "y": 320,
+        "wires": [
+            [
+                "2704252b42b3faaf"
+            ]
+        ]
+    },
+    {
+        "id": "2704252b42b3faaf",
+        "type": "http response",
+        "z": "4c2feff02c9aebaa",
+        "g": "bd90043835651de6",
+        "name": "",
+        "statusCode": "307",
+        "headers": {
+            "Location": "/dashboard"
+        },
+        "x": 380,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "d536608ecbe6516c",
+        "type": "inject",
+        "z": "4c2feff02c9aebaa",
+        "g": "f734a4fcce4a0802",
+        "name": "boot",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "{}",
+        "payloadType": "jsonata",
+        "x": 230,
+        "y": 80,
+        "wires": [
+            [
+                "0744af34f2373571"
+            ]
+        ]
+    },
+    {
+        "id": "0744af34f2373571",
+        "type": "function",
+        "z": "4c2feff02c9aebaa",
+        "g": "f734a4fcce4a0802",
+        "name": "check",
+        "func": "\nmsg = await node.linkcall('custom - describe', msg);\n\nif (typeof msg.payload !== 'object' ||\n    typeof msg.payload.hmi !== 'object' ||\n    typeof msg.payload.project !== 'string'\n) {\n    return;\n}\n\nmsg.filename = '/data/projects/' + msg.payload.project + '/package.json'\n\nmsg.payload.app = {\n    'title': 'DKNR',\n    'version' : '0.0',\n    'git': '',\n    'mdi': ''\n}\n\nglobal.set('describe', msg.payload, 'memoryOnly');\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "47f04f56e95961a5"
+            ]
+        ]
+    },
+    {
+        "id": "47f04f56e95961a5",
+        "type": "file in",
+        "z": "4c2feff02c9aebaa",
+        "g": "f734a4fcce4a0802",
+        "name": "read project",
+        "filename": "filename",
+        "filenameType": "msg",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 570,
+        "y": 80,
+        "wires": [
+            [
+                "def7f23476f92a9e"
+            ]
+        ]
+    },
+    {
+        "id": "def7f23476f92a9e",
+        "type": "json",
+        "z": "4c2feff02c9aebaa",
+        "g": "f734a4fcce4a0802",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 750,
+        "y": 80,
+        "wires": [
+            [
+                "34e54b81fe18b33f"
+            ]
+        ]
+    },
+    {
+        "id": "34e54b81fe18b33f",
+        "type": "function",
+        "z": "4c2feff02c9aebaa",
+        "g": "f734a4fcce4a0802",
+        "name": "app",
+        "func": "delete msg.filename;\n\nif (typeof global.get('describe', 'memoryOnly') !== 'object') {\n    global.set('describe', { }, 'memoryOnly')\n}\n\nlet describe = global.get('describe', 'memoryOnly');\n\nif (typeof msg.payload === 'object') {\n    describe.app = {\n        'title': msg.payload.description.slice(5) || '',\n        'version' : msg.payload.version || '',\n        'git': msg.payload.name || '',\n        'mdi': 'microphone-variant'\n    };\n}\n\ndescribe.mqtt = {\n    'host': '',\n    'port': 1883,\n    'username': '',\n    'password': '',\n    'topic': 'dknr',\n    'enabled': false\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 80,
+        "wires": [
+            [
+                "d0ee4b417bfa2bb7"
+            ]
+        ]
+    },
+    {
+        "id": "d0ee4b417bfa2bb7",
+        "type": "link out",
+        "z": "4c2feff02c9aebaa",
+        "g": "f734a4fcce4a0802",
+        "name": "common - boot",
+        "mode": "link",
+        "links": [
+            "05b0c0afa2f55df1",
+            "269fe06d582be842",
+            "0b0e636ef09885dc",
+            "a253a071e3a0ba07"
+        ],
+        "x": 1035,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "31368f26faeeeec5",
+        "type": "http in",
+        "z": "4c2feff02c9aebaa",
+        "g": "87038dcf749d44c6",
+        "name": "",
+        "url": "/icon.png",
+        "method": "get",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 230,
+        "y": 200,
+        "wires": [
+            [
+                "066905a23ee18843"
+            ]
+        ]
+    },
+    {
+        "id": "066905a23ee18843",
+        "type": "change",
+        "z": "4c2feff02c9aebaa",
+        "g": "87038dcf749d44c6",
+        "name": "file",
+        "rules": [
+            {
+                "t": "set",
+                "p": "filename",
+                "pt": "msg",
+                "to": "'/data/admin.png'",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 200,
+        "wires": [
+            [
+                "9f90cc93644f80c4"
+            ]
+        ]
+    },
+    {
+        "id": "9f90cc93644f80c4",
+        "type": "file in",
+        "z": "4c2feff02c9aebaa",
+        "g": "87038dcf749d44c6",
+        "name": "icon",
+        "filename": "filename",
+        "filenameType": "msg",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 570,
+        "y": 200,
+        "wires": [
+            [
+                "a49cdba72413a587"
+            ]
+        ]
+    },
+    {
+        "id": "a49cdba72413a587",
+        "type": "change",
+        "z": "4c2feff02c9aebaa",
+        "g": "87038dcf749d44c6",
+        "name": "response",
+        "rules": [
+            {
+                "t": "set",
+                "p": "statusCode",
+                "pt": "msg",
+                "to": "200",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "buffersize",
+                "pt": "msg",
+                "to": "msg.payload.length",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "headers",
+                "pt": "msg",
+                "to": "{\t    'Content-Type':'image/png',\t    'Content-Length':msg.buffersize,\t    'Connection':'close'\t}",
+                "tot": "jsonata"
+            },
+            {
+                "t": "delete",
+                "p": "filename",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 200,
+        "wires": [
+            [
+                "9ba5455a5674c8a7"
+            ]
+        ]
+    },
+    {
+        "id": "9ba5455a5674c8a7",
+        "type": "http response",
+        "z": "4c2feff02c9aebaa",
+        "g": "87038dcf749d44c6",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 910,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "05b0c0afa2f55df1",
+        "type": "link in",
+        "z": "4c2feff02c9aebaa",
+        "g": "ced6b0d6d8aa764d",
+        "name": "common - mqtt - settings",
+        "links": [
+            "d0ee4b417bfa2bb7",
+            "ca5c502dcbc1ee15"
+        ],
+        "x": 185,
+        "y": 440,
+        "wires": [
+            [
+                "b18dc51cbf75cc24",
+                "99def6db6b13ba9c"
+            ]
+        ]
+    },
+    {
+        "id": "b18dc51cbf75cc24",
+        "type": "function",
+        "z": "4c2feff02c9aebaa",
+        "g": "ced6b0d6d8aa764d",
+        "name": "check",
+        "func": "msg.broker = {};\n\nlet mqtt = global.get('mqtt', 'default');\nif (typeof mqtt == 'object' && mqtt.enabled == true) {\n    if (mqtt.host.length > 0\n        && mqtt.port > 0\n        && mqtt.topic.length > 0\n    ) {\n        msg.broker.broker = mqtt.host;\n        msg.broker.port = mqtt.port;\n        if (mqtt.username.length > 0 && mqtt.password.length > 0) {\n            msg.broker.username = mqtt.username;\n            msg.broker.password = mqtt.password;\n        }\n\n        msg.broker.force = true;\n        msg.action = 'connect';\n        node.status({fill:\"green\",shape:\"ring\",text:\"settings ok\"});\n\n        return msg;\n    } else {\n        global.set('mqtt[\"enabled\"]', false, 'default');\n        node.status({ fill: \"red\", shape: \"ring\", text: \"settings ko\" });\n    }\n}\n\nmsg.action = 'disconnect';\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 500,
+        "wires": [
+            [
+                "4ca2b0783078bb87"
+            ]
+        ]
+    },
+    {
+        "id": "4ca2b0783078bb87",
+        "type": "mqtt out",
+        "z": "4c2feff02c9aebaa",
+        "g": "ced6b0d6d8aa764d",
+        "name": "mqtt",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "2c5e094fee5ae877",
+        "x": 490,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "99def6db6b13ba9c",
+        "type": "function",
+        "z": "4c2feff02c9aebaa",
+        "g": "ced6b0d6d8aa764d",
+        "name": "check",
+        "func": "// Subscribe to DKNR discovery and values of all sources\n\nmsg.broker = {};\n\nconst mqtt = global.get('mqtt', 'default');\n\nif (typeof mqtt == 'object' && mqtt.enabled == true) {\n    if (mqtt.host.length > 0\n        && mqtt.port > 0\n        && mqtt.topic.length > 0\n    ) {\n        msg.broker.broker = mqtt.host;\n        msg.broker.port = mqtt.port;\n        if (mqtt.username.length > 0 && mqtt.password.length > 0) {\n            msg.broker.username = mqtt.username;\n            msg.broker.password = mqtt.password;\n        }\n\n        msg.broker.force = true;\n        msg.action = 'connect';\n        node.status({fill:\"green\",shape:\"ring\",text:\"settings ok\"});\n\n        node.send(RED.util.cloneMessage(msg));\n\n        delete msg.broker;\n        msg.action = 'subscribe';\n        msg.payload = '';\n\n        // DKNR entities: topic / discovery / source / parent / entity\n        msg.topic = [mqtt.topic, 'discovery', '#'].join('/');\n        node.send(RED.util.cloneMessage(msg));\n\n        // DKNR values: topic / get / source / parent / entity\n        msg.topic = [mqtt.topic, 'get', '#'].join('/');\n        node.send(RED.util.cloneMessage(msg));\n\n    } else {\n        global.set('mqtt.enabled', false, 'default');\n        node.status({ fill: \"red\", shape: \"ring\", text: \"settings ko\" });\n    }\n} else {\n    msg.action = 'disconnect';\n\n    node.send(msg);\n}\n\nreturn;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 440,
+        "wires": [
+            [
+                "30335bf1ac7b99bc"
+            ]
+        ]
+    },
+    {
+        "id": "30335bf1ac7b99bc",
+        "type": "mqtt in",
+        "z": "4c2feff02c9aebaa",
+        "g": "ced6b0d6d8aa764d",
+        "name": "mqtt in",
+        "topic": "",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "2c5e094fee5ae877",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 1,
+        "x": 490,
+        "y": 440,
+        "wires": [
+            [
+                "25ce94531dd6fbe4"
+            ]
+        ]
+    },
+    {
+        "id": "25ce94531dd6fbe4",
+        "type": "link out",
+        "z": "4c2feff02c9aebaa",
+        "g": "ced6b0d6d8aa764d",
+        "name": "common - mqtt - receive",
+        "mode": "link",
+        "links": [
+            "13d113e7ff87baa8"
+        ],
+        "x": 615,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "d5bdaec879cbd196",
+        "type": "link in",
+        "z": "4c2feff02c9aebaa",
+        "g": "ced6b0d6d8aa764d",
+        "name": "common - mqtt - send",
+        "links": [
+            "9675ccea6498bf7b"
+        ],
+        "x": 185,
+        "y": 560,
+        "wires": [
+            [
+                "02dccf8f780a61d9"
+            ]
+        ]
+    },
+    {
+        "id": "02dccf8f780a61d9",
+        "type": "switch",
+        "z": "4c2feff02c9aebaa",
+        "g": "ced6b0d6d8aa764d",
+        "name": "enabled",
+        "property": "mqtt.enabled",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 560,
+        "wires": [
+            [
+                "4ca2b0783078bb87",
+                "49a4236523d8a934"
+            ]
+        ]
+    },
+    {
+        "id": "49a4236523d8a934",
+        "type": "debug",
+        "z": "4c2feff02c9aebaa",
+        "g": "ced6b0d6d8aa764d",
+        "name": "common - mqtt",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "fc147ee782462bbe",
+        "type": "link in",
+        "z": "4c2feff02c9aebaa",
+        "g": "6f2c0bf97f866aa6",
+        "name": "common - error",
+        "links": [],
+        "x": 185,
+        "y": 680,
+        "wires": [
+            [
+                "8b870d19217142fa"
+            ]
+        ]
+    },
+    {
+        "id": "8b870d19217142fa",
+        "type": "switch",
+        "z": "4c2feff02c9aebaa",
+        "g": "6f2c0bf97f866aa6",
+        "name": "empty",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "nempty"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 310,
+        "y": 680,
+        "wires": [
+            [
+                "9f55bfd681e97786"
+            ]
+        ]
+    },
+    {
+        "id": "9f55bfd681e97786",
+        "type": "ui-notification",
+        "z": "4c2feff02c9aebaa",
+        "g": "6f2c0bf97f866aa6",
+        "ui": "df7710b4b2c4e55b",
+        "position": "top center",
+        "colorDefault": true,
+        "color": "#000000",
+        "displayTime": "3",
+        "showCountdown": true,
+        "outputs": 1,
+        "allowDismiss": true,
+        "dismissText": "Close",
+        "allowConfirm": false,
+        "confirmText": "Confirm",
+        "raw": false,
+        "className": "",
+        "name": "common - error",
+        "x": 500,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "08a5cf610c97d769",
+        "type": "ui-template",
+        "z": "4c2feff02c9aebaa",
+        "g": "94ca764ef2760841",
+        "group": "",
+        "page": "",
+        "ui": "df7710b4b2c4e55b",
+        "name": "common - ui - style",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": ".v-card .remove,\n.v-card-text .remove {\n    display: none !important;\n    visibility: hidden;\n    color: transparent !important;\n}\n\n.v-table__wrapper table thead {\n    display: none !important;\n}\ntbody td[data-column-key=lbl] {\n    font-weight: bold !important;\n}\n\n.v-tab-item--selected {\n    color: #0094ce !important;\n}\n\n.v-main {\n    padding-bottom: 2em;\n}\n#app-bar-actions img {\n    margin-right: 20px;\n}\n.ui-title span {\n    font-size: 1.4rem !important;\n    font-weight: normal !important;\n    padding: 0;\n    color: #0094ce;\n}\n\n.nrdb-ui-group {\n    border-radius: 4px;\n    box-shadow: 3px 2px 2px rgba(0, 55, 77, 0.25);\n}\n.oe_nav {\n    background: rgb(var(--v-theme-navigation-background));\n}\n#oe_header {\n    border: none;\n    padding-left: 1em;\n    background: rgb(var(--v-theme-navigation-background));\n}\n.v-application {\n    border-top: 1px solid #CCCCCC;\n    margin-top: -1px;\n}\n.nrdb-ui-gauge-tile-floating-label {\n    margin-top: -5px;\n    font-size: 0.75em !important;\n}\n.nrdb-ui-gauge-tile label:after {\n    content: '°C';\n}",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "site:style",
+        "className": "",
+        "x": 350,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7adf1bcdd6df3b31",
+        "type": "link in",
+        "z": "4c2feff02c9aebaa",
+        "g": "94ca764ef2760841",
+        "name": "common - ui - custom",
+        "links": [
+            "06a3852174fa19e7"
+        ],
+        "x": 185,
+        "y": 860,
+        "wires": [
+            [
+                "8760610a1e45ffab",
+                "0154b8f75648b065"
+            ]
+        ]
+    },
+    {
+        "id": "8760610a1e45ffab",
+        "type": "function",
+        "z": "4c2feff02c9aebaa",
+        "g": "94ca764ef2760841",
+        "name": "tab",
+        "func": "if (msg.payload !== '' && typeof global.get('describe.hmi[\"' + msg.payload + '\"]', 'memoryOnly') === 'string') {\n    msg.tab = msg.payload;\n    msg.name = global.get('describe.hmi[\"' + msg.payload + '\"]', 'memoryOnly');\n    msg.payload = 'change';\n\n    return msg;\n}\n\nreturn;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 860,
+        "wires": [
+            [
+                "5f28408f430feddf"
+            ]
+        ]
+    },
+    {
+        "id": "5f28408f430feddf",
+        "type": "function",
+        "z": "4c2feff02c9aebaa",
+        "g": "94ca764ef2760841",
+        "name": "action",
+        "func": "// on unwanted state, stop here\nif (msg.payload.match((new RegExp('^(connect|change|lost)$'))) === null) {\n    return;\n}\n\n// on connect or lost connection, go to auth page\nif (msg.payload === 'connect' || msg.payload === 'lost') {\n    msg.payload = global.get('describe.app.hmi', 'memoryOnly');;\n\n    return [null, msg];\n}\n\n// ui main\nmsg.version = global.get('describe.app.version', 'memoryOnly');\nmsg.title = global.get('describe.app.title', 'memoryOnly');\nmsg.full = msg.title + ' v' + msg.version;\nmsg.git = \"https://github.com/dknr-domotic/\" + global.get('describe.app.git', 'memoryOnly');\nmsg.lang = 'FR-fr';\n\n// ui menu\nmsg.menus = {};\nmsg.titles = {};\nmsg.payload = {\n    'pages': {\n        'show': [],\n        'hide': []\n    }\n};\nlet s =0;\nlet pages = global.get('describe.hmi', 'memoryOnly') || {};\nfor (const tab in pages) {\n    msg.menus[tab] = true;\n    msg.titles[tab] = pages[tab];\n    msg.payload.pages.show[s++] = tab;\n\n    if (tab === msg.tab) {\n        msg.title = msg.title + ' - ' + pages[tab];\n    }\n}\n\nreturn [msg, null];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 920,
+        "wires": [
+            [
+                "3681864d9f417484",
+                "d3965b3ecbc6aae9"
+            ],
+            [
+                "0154b8f75648b065"
+            ]
+        ]
+    },
+    {
+        "id": "3681864d9f417484",
+        "type": "delay",
+        "z": "4c2feff02c9aebaa",
+        "g": "94ca764ef2760841",
+        "name": "50ms",
+        "pauseType": "delay",
+        "timeout": "50",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1070,
+        "y": 920,
+        "wires": [
+            [
+                "ddab942f6d49a661"
+            ]
+        ]
+    },
+    {
+        "id": "ddab942f6d49a661",
+        "type": "link out",
+        "z": "4c2feff02c9aebaa",
+        "g": "94ca764ef2760841",
+        "name": "common - ui - control",
+        "mode": "link",
+        "links": [
+            "269fe06d582be842",
+            "a253a071e3a0ba07"
+        ],
+        "x": 1195,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "d3965b3ecbc6aae9",
+        "type": "link out",
+        "z": "4c2feff02c9aebaa",
+        "g": "94ca764ef2760841",
+        "name": "common - ui - custom",
+        "mode": "link",
+        "links": [
+            "05ee84a284c109d7"
+        ],
+        "x": 1035,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "300df28f3025dc33",
+        "type": "link in",
+        "z": "4c2feff02c9aebaa",
+        "g": "94ca764ef2760841",
+        "name": "common - ui - control",
+        "links": [],
+        "x": 185,
+        "y": 920,
+        "wires": [
+            [
+                "0154b8f75648b065"
+            ]
+        ]
+    },
+    {
+        "id": "0154b8f75648b065",
+        "type": "ui-control",
+        "z": "4c2feff02c9aebaa",
+        "g": "94ca764ef2760841",
+        "name": "common - ui - control",
+        "ui": "df7710b4b2c4e55b",
+        "events": "all",
+        "outputs": 1,
+        "x": 360,
+        "y": 920,
+        "wires": [
+            [
+                "e453d1f77363ac46"
+            ]
+        ]
+    },
+    {
+        "id": "e453d1f77363ac46",
+        "type": "change",
+        "z": "4c2feff02c9aebaa",
+        "g": "94ca764ef2760841",
+        "name": "payload",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "name",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 580,
+        "y": 920,
+        "wires": [
+            [
+                "8760610a1e45ffab"
+            ]
+        ]
+    },
+    {
+        "id": "269fe06d582be842",
+        "type": "link in",
+        "z": "4c2feff02c9aebaa",
+        "g": "9f3c5b4c8836214c",
+        "name": "common - mqtt - form",
+        "links": [
+            "d0ee4b417bfa2bb7",
+            "ddab942f6d49a661",
+            "ca5c502dcbc1ee15"
+        ],
+        "x": 185,
+        "y": 1040,
+        "wires": [
+            [
+                "913d3318a27c57f9"
+            ]
+        ]
+    },
+    {
+        "id": "913d3318a27c57f9",
+        "type": "function",
+        "z": "4c2feff02c9aebaa",
+        "g": "9f3c5b4c8836214c",
+        "name": "data",
+        "func": "msg.payload = { ...(global.get('describe.mqtt', 'memoryOnly') || { }), ...(global.get('mqtt', 'default') || { }) };\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 1040,
+        "wires": [
+            [
+                "8b76a374e82e1255"
+            ]
+        ]
+    },
+    {
+        "id": "8b76a374e82e1255",
+        "type": "ui-form",
+        "z": "4c2feff02c9aebaa",
+        "g": "9f3c5b4c8836214c",
+        "name": "ui - mqtt - form",
+        "group": "4c116fe2697e0aa9",
+        "label": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Adresse IP du broker",
+                "key": "host",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Port",
+                "key": "port",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Topic",
+                "key": "topic",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Utilisateur",
+                "key": "username",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Mot de passe",
+                "key": "password",
+                "type": "password",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Activation",
+                "key": "enabled",
+                "type": "checkbox",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "host": "",
+            "port": "",
+            "topic": "",
+            "username": "",
+            "password": "",
+            "enabled": false
+        },
+        "submit": "Enregistrer",
+        "cancel": "",
+        "resetOnSubmit": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "passthru": false,
+        "dropdownOptions": [],
+        "x": 500,
+        "y": 1040,
+        "wires": [
+            [
+                "094401b4b908ed63"
+            ]
+        ]
+    },
+    {
+        "id": "094401b4b908ed63",
+        "type": "function",
+        "z": "4c2feff02c9aebaa",
+        "g": "9f3c5b4c8836214c",
+        "name": "data",
+        "func": "global.set('mqtt', msg.payload, 'default');\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 1040,
+        "wires": [
+            [
+                "901bc3883a87d865"
+            ]
+        ]
+    },
+    {
+        "id": "901bc3883a87d865",
+        "type": "delay",
+        "z": "4c2feff02c9aebaa",
+        "g": "9f3c5b4c8836214c",
+        "name": "50ms",
+        "pauseType": "delay",
+        "timeout": "50",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 850,
+        "y": 1040,
+        "wires": [
+            [
+                "ca5c502dcbc1ee15"
+            ]
+        ]
+    },
+    {
+        "id": "ca5c502dcbc1ee15",
+        "type": "link out",
+        "z": "4c2feff02c9aebaa",
+        "g": "9f3c5b4c8836214c",
+        "name": "common - mqtt - form",
+        "mode": "link",
+        "links": [
+            "05b0c0afa2f55df1",
+            "269fe06d582be842"
+        ],
+        "x": 975,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "560e6e002d024584",
+        "type": "link in",
+        "z": "48135a54600713e8",
+        "g": "9c1206c5da451f05",
+        "name": "custom - describe",
+        "links": [],
+        "x": 200,
+        "y": 80,
+        "wires": [
+            [
+                "8ee6be07d7909e4c"
+            ]
+        ]
+    },
+    {
+        "id": "8ee6be07d7909e4c",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "g": "9c1206c5da451f05",
+        "name": "custom - describe",
+        "func": "\nmsg.payload.project = 'dknr-voice';\n\nmsg.payload.hmi = {\n    'devices': 'Boîtiers',\n    'mqtt': 'Configurer'\n};\n\n// JSON environment variable (prototype: configuration without pages yet)\nfunction json(name, fallback) {\n    const v = env.get(name);\n    if (typeof v !== 'string' || v.trim() === '') {\n\n        return fallback;\n    }\n    try {\n\n        return JSON.parse(v);\n    } catch (e) {\n        node.warn(name + ': JSON invalide (' + e.message + ')');\n\n        return fallback;\n    }\n}\n\n// voice engine configuration (see lib/voice.js)\n// prototype (version 0.1): one voice device and the devices given by environment variables,\n// pages to configure them later\nlet satellites = {};\nif (env.get('DKNR_VOICE_HOST')) {\n    satellites[env.get('DKNR_VOICE_ID') || 'main'] = {\n        'name': env.get('DKNR_VOICE_NAME') || 'Boîtier',\n        'room': env.get('DKNR_VOICE_ROOM') || 'salon',\n        'host': env.get('DKNR_VOICE_HOST'),\n        'port': Number(env.get('DKNR_VOICE_PORT')) || 6053,\n        'key': env.get('DKNR_VOICE_KEY') || ''\n    };\n}\n\nmsg.payload.voice = {\n    // wyoming-vosk (speech to text) and wyoming-piper (text to speech)\n    'vosk': env.get('DKNR_VOICE_VOSK') || 'dknr_voice_vosk:10300',\n    'piper': env.get('DKNR_VOICE_PIPER') || 'dknr_voice_piper:10200',\n    'voice': env.get('DKNR_VOICE_VOICE') || 'fr_FR-siwis-medium',\n    // base URL of dknr-voice reached by the voice devices, to play the spoken answers\n    'url': env.get('DKNR_VOICE_URL') || '',\n    // voice: spoken answer for everything, sound: short sound for the orders\n    'response': env.get('DKNR_VOICE_RESPONSE') === 'sound' ? 'sound' : 'voice',\n    'satellites': satellites,\n    // { \"id\": { \"room\": \"...\", \"entities\": [\"source/parent/entity\"] } }\n    'devices': json('DKNR_VOICE_DEVICES', {})\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 80,
+        "wires": [
+            [
+                "35b24e0f76e5a94d"
+            ]
+        ]
+    },
+    {
+        "id": "35b24e0f76e5a94d",
+        "type": "link out",
+        "z": "48135a54600713e8",
+        "g": "9c1206c5da451f05",
+        "name": "custom - describe",
+        "mode": "return",
+        "links": [],
+        "x": 660,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "05ee84a284c109d7",
+        "type": "link in",
+        "z": "48135a54600713e8",
+        "g": "7b701e2ac877f68b",
+        "name": "custom - menu",
+        "links": [
+            "d3965b3ecbc6aae9"
+        ],
+        "x": 200,
+        "y": 200,
+        "wires": [
+            [
+                "f000685f71b06791"
+            ]
+        ]
+    },
+    {
+        "id": "f000685f71b06791",
+        "type": "ui-template",
+        "z": "48135a54600713e8",
+        "g": "7b701e2ac877f68b",
+        "group": "",
+        "page": "",
+        "ui": "df7710b4b2c4e55b",
+        "name": "custom - menu",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "head": "",
+        "format": "<template>\n    <Teleport v-if=\"mounted\" to=\"#oe_header\">\n        <v-toolbar class=\"oe_nav\"> \n        <v-btn-group variant=\"outlined\" divided>\n            <v-btn v-if=\"oe_menus.devices\" @click=\"oe_nav('devices')\" :title=\"oe_titles.devices\" icon=\"mdi-microphone-variant\"></v-btn> \n            <v-btn v-if=\"oe_menus.mqtt\" @click=\"oe_nav('mqtt')\" :title=\"oe_titles.mqtt\" icon=\"mdi-cog\"></v-btn> \n        </v-btn-group>\n        <v-toolbar-title :text=\"msg.title\"></v-toolbar-title>\n        <v-btn :href=\"msg.git\"><img height=\"32px\" src=\"/icon.png\" :title=\"msg.full\"></img></v-btn>\n        </v-toolbar>\n    </Teleport>\n</template>\n\n<script>\n    export default {\n        data() {\n            return {\n                oe_menus: { devices: true, mqtt: true },\n                oe_titles: { devices: '', mqtt: '' },\n                mounted: false\n            }\n        },\n        mounted() {\n            let div = document.createElement(\"div\");\n            div.id=\"oe_header\";\n            const el = document.body.querySelector(\"#app\").prepend(div);\n            this.mounted = true;\n        },\n        methods: {\n            oe_nav: function (page) {\n                this.send(page)\n            }\n        },\n        watch: {\n            msg: function (msg) {\n                document.documentElement.setAttribute(\"lang\", msg.lang);\n                document.documentElement.setAttribute(\"translate\", \"no\");\n                document.title = msg.title;\n                this.oe_menus = msg.menus;\n                this.oe_titles = msg.titles;\n            }\n        }\n    }\n\n</script>\n",
+        "storeOutMessages": true,
+        "passthru": false,
+        "resendOnRefresh": true,
+        "templateScope": "widget:ui",
+        "className": "",
+        "x": 430,
+        "y": 200,
+        "wires": [
+            [
+                "06a3852174fa19e7"
+            ]
+        ]
+    },
+    {
+        "id": "06a3852174fa19e7",
+        "type": "link out",
+        "z": "48135a54600713e8",
+        "g": "7b701e2ac877f68b",
+        "name": "custom - menu",
+        "mode": "link",
+        "links": [
+            "7adf1bcdd6df3b31"
+        ],
+        "x": 660,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "646fb6195911ba44",
+        "type": "ui-template",
+        "z": "48135a54600713e8",
+        "g": "7b701e2ac877f68b",
+        "group": "",
+        "page": "",
+        "ui": "df7710b4b2c4e55b",
+        "name": "custom - ui - style",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "head": "",
+        "format": ".dknr-headers .v-table__wrapper table thead {\n    display: table-header-group !important;\n}\n.dknr-headers tbody td {\n    font-weight: normal !important;\n}\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "site:style",
+        "className": "",
+        "x": 200,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "13d113e7ff87baa8",
+        "type": "link in",
+        "z": "48135a54600713e8",
+        "g": "6c8a075a16eb0419",
+        "name": "custom - state",
+        "links": [
+            "25ce94531dd6fbe4"
+        ],
+        "x": 200,
+        "y": 380,
+        "wires": [
+            [
+                "479fd7f898bf2afd"
+            ]
+        ]
+    },
+    {
+        "id": "479fd7f898bf2afd",
+        "type": "function",
+        "z": "48135a54600713e8",
+        "g": "6c8a075a16eb0419",
+        "name": "route",
+        "func": "\n// DKNR MQTT messages: entities catalog (discovery) and values (get)\n// the voice engine reads the values from the catalog (questions)\n\nconst topic = global.get('mqtt.topic', 'default') || '';\nconst t = typeof msg.topic === 'string' ? msg.topic : '';\n\nif (topic === '' || !t.startsWith(topic + '/')) {\n\n    return;\n}\n\nconst path = t.slice(topic.length + 1).split('/');\nconst action = path.shift();\n\nlet catalog = global.get('catalog', 'memoryOnly');\nif (typeof catalog !== 'object' || catalog === null) {\n    catalog = { 'sources': {}, 'parents': {}, 'entities': {}, 'values': {} };\n    global.set('catalog', catalog, 'memoryOnly');\n}\n\n// empty retained message: removed\nconst empty = msg.payload === '' || msg.payload === null || (Buffer.isBuffer(msg.payload) && msg.payload.length === 0);\nconst object = typeof msg.payload === 'object' && msg.payload !== null && !Buffer.isBuffer(msg.payload);\n\nif (action === 'discovery') {\n    // source: topic / discovery / source\n    if (path.length === 1) {\n        if (empty) {\n            delete catalog.sources[path[0]];\n        } else {\n            catalog.sources[path[0]] = object && msg.payload.title ? String(msg.payload.title) : path[0];\n        }\n    }\n    // parent: topic / discovery / source / parent\n    else if (path.length === 2) {\n        const key = path.join('/');\n        if (empty) {\n            delete catalog.parents[key];\n        } else {\n            catalog.parents[key] = object && msg.payload.name ? String(msg.payload.name).replace(/_/g, ' ') : path[1];\n        }\n    }\n    // entity: topic / discovery / source / parent / entity\n    else if (path.length === 3) {\n        const uid = path.join('/');\n        if (empty) {\n            delete catalog.entities[uid];\n        } else if (object) {\n            catalog.entities[uid] = {\n                'name': String(msg.payload.name || path[2]),\n                'group': String(msg.payload.group || ''),\n                'type': String(msg.payload.type || ''),\n                'unit': String(msg.payload.unit || ''),\n                'options': typeof msg.payload.options === 'object' && msg.payload.options !== null ? msg.payload.options : {}\n            };\n            if (typeof catalog.sources[path[0]] !== 'string') {\n                catalog.sources[path[0]] = path[0];\n            }\n        }\n    }\n\n    return;\n}\n\n// value: topic / get / source / parent / entity\nif (action !== 'get' || path.length !== 3) {\n\n    return;\n}\n\nconst uid = path.join('/');\n// empty retained message: value removed by the source\nif (empty) {\n    delete catalog.values[uid];\n\n    return;\n}\nconst value = Buffer.isBuffer(msg.payload) ? msg.payload.toString() : msg.payload;\ncatalog.values[uid] = value;\n\n// entities used by the voice devices: last value kept across restarts,\n// some sources do not retain their values (ex: RFXCom, Daikin)\nconst devices = global.get('describe.voice.devices', 'memoryOnly') || {};\nlet used = false;\nfor (const id in devices) {\n    if (Array.isArray(devices[id].entities) && devices[id].entities.includes(uid)) {\n        used = true;\n        break;\n    }\n}\nif (!used) {\n\n    return;\n}\n\nlet last = global.get('last', 'default') || {};\nif (last[uid] !== value) {\n    last[uid] = value;\n    global.set('last', last, 'default');\n}\n\nreturn;\n",
+        "outputs": 0,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "595c682cd8e937ab",
+        "type": "group",
+        "z": "48135a54600713e8",
+        "name": "custom - voice",
+        "style": {
+            "fill": "#0070c0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "0b0e636ef09885dc",
+            "0b593d07a1b1c78a",
+            "9d48222feda75467",
+            "2552b0367f796fd4",
+            "9675ccea6498bf7b",
+            "7b8c90c12d4dd5e8",
+            "062fa667dbd0b683"
+        ],
+        "x": 114,
+        "y": 459,
+        "w": 930,
+        "h": 202
+    },
+    {
+        "type": "link in",
+        "name": "custom - voice - boot",
+        "links": [
+            "d0ee4b417bfa2bb7"
+        ],
+        "x": 155,
+        "y": 500,
+        "wires": [
+            [
+                "0b593d07a1b1c78a"
+            ]
+        ],
+        "id": "0b0e636ef09885dc",
+        "z": "48135a54600713e8",
+        "g": "595c682cd8e937ab"
+    },
+    {
+        "type": "change",
+        "name": "start",
+        "rules": [
+            {
+                "t": "set",
+                "p": "action",
+                "pt": "msg",
+                "to": "start",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 290,
+        "y": 500,
+        "wires": [
+            [
+                "2552b0367f796fd4"
+            ]
+        ],
+        "id": "0b593d07a1b1c78a",
+        "z": "48135a54600713e8",
+        "g": "595c682cd8e937ab"
+    },
+    {
+        "type": "link in",
+        "name": "custom - voice",
+        "links": [
+            "71f7b8053ef24d82"
+        ],
+        "x": 155,
+        "y": 560,
+        "wires": [
+            [
+                "2552b0367f796fd4"
+            ]
+        ],
+        "id": "9d48222feda75467",
+        "z": "48135a54600713e8",
+        "g": "595c682cd8e937ab"
+    },
+    {
+        "type": "function",
+        "name": "voice",
+        "func": "\n// voice engine: see the \"On Start\" tab and lib/voice.js\n// input: action = start (connect the voice devices) | test (payload = recognized sentence, ex: SET|test|1)\n// output 1: DKNR commands (MQTT) / output 2: status changed (refresh of the pages)\n\nconst engine = context.get('engine', 'memoryOnly');\nif (typeof engine !== 'object' || engine === null) {\n\n    return;\n}\n\nif (msg.action === 'start') {\n    await engine.start();\n} else if (msg.action === 'test' && typeof msg.payload === 'string' && msg.payload.trim() !== '') {\n    await engine.test(msg.payload.trim());\n}\n\nreturn;\n",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "\n// voice engine (lib/voice.js, given by settings.js), created when the flow starts and closed when it stops\n// output 1: DKNR commands (MQTT) / output 2: status changed (refresh of the pages)\n\nconst voice = global.get('lib_voice');\nif (typeof voice !== 'object' || voice === null) {\n    node.error('voice: lib/voice.js not loaded (see settings.js)');\n    node.status({ 'fill': 'red', 'shape': 'dot', 'text': 'lib missing' });\n\n    return;\n}\n\n// the previous engine (redeploy) must have closed its connections\nconst previous = global.get('voice_closing', 'memoryOnly');\nif (previous && typeof previous.then === 'function') {\n    try { await previous; } catch (e) { }\n}\n\nconst texts = { 'online': 'connecté', 'connecting': 'connexion...', 'offline': 'déconnecté', 'error': 'erreur' };\n\nconst engine = voice.create({\n    'config': () => Object.assign({}, global.get('describe.voice', 'memoryOnly') || {}, {\n        'topic': global.get('mqtt.topic', 'default') || 'dknr'\n    }),\n    'publish': (topic, payload) => node.send([{ 'topic': topic, 'payload': payload, 'qos': 0, 'retain': false }, null]),\n    // value of an entity: current one, or the last one known before restart\n    'valueOf': (uid) => {\n        const values = (global.get('catalog', 'memoryOnly') || {}).values || {};\n\n        return values[uid] !== undefined ? values[uid] : (global.get('last', 'default') || {})[uid];\n    },\n    'onStatus': (status) => {\n        global.set('voice_status', status, 'memoryOnly');\n        const sats = Object.values(status.satellites);\n        node.status({\n            'fill': sats.length > 0 && sats.every(s => s.state === 'online') ? 'green' : (sats.length === 0 ? 'grey' : 'red'),\n            'shape': 'dot',\n            'text': sats.map(s => s.name + ' : ' + (texts[s.state] || s.state)).join(', ') || 'aucun boîtier'\n        });\n        node.send([null, { 'topic': 'status' }]);\n    },\n    'log': {\n        'info': (m) => node.log(m),\n        'warn': (m) => node.warn(m),\n        'error': (m) => node.error(m),\n        'debug': (m) => node.debug(m)\n    }\n});\n\ncontext.set('engine', engine, 'memoryOnly');\nglobal.set('voice_engine', engine, 'memoryOnly');\nnode.status({ 'fill': 'grey', 'shape': 'dot', 'text': 'waiting' });\n",
+        "finalize": "\n// close the connections to the voice devices, the next engine waits for it (see \"On Start\")\nconst engine = context.get('engine', 'memoryOnly');\nif (typeof engine === 'object' && engine !== null && typeof engine.close === 'function') {\n    global.set('voice_closing', engine.close(), 'memoryOnly');\n}\nglobal.set('voice_engine', null, 'memoryOnly');\n",
+        "libs": [],
+        "x": 470,
+        "y": 540,
+        "wires": [
+            [
+                "9675ccea6498bf7b",
+                "062fa667dbd0b683"
+            ],
+            [
+                "7b8c90c12d4dd5e8"
+            ]
+        ],
+        "id": "2552b0367f796fd4",
+        "z": "48135a54600713e8",
+        "g": "595c682cd8e937ab"
+    },
+    {
+        "type": "link out",
+        "name": "custom - voice - mqtt",
+        "mode": "link",
+        "links": [
+            "d5bdaec879cbd196"
+        ],
+        "x": 695,
+        "y": 520,
+        "wires": [],
+        "id": "9675ccea6498bf7b",
+        "z": "48135a54600713e8",
+        "g": "595c682cd8e937ab"
+    },
+    {
+        "type": "link out",
+        "name": "custom - voice - status",
+        "mode": "link",
+        "links": [
+            "a253a071e3a0ba07"
+        ],
+        "x": 695,
+        "y": 560,
+        "wires": [],
+        "id": "7b8c90c12d4dd5e8",
+        "z": "48135a54600713e8",
+        "g": "595c682cd8e937ab"
+    },
+    {
+        "type": "debug",
+        "name": "custom - voice",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 520,
+        "wires": [],
+        "id": "062fa667dbd0b683",
+        "z": "48135a54600713e8",
+        "g": "595c682cd8e937ab"
+    },
+    {
+        "id": "26ecdf5779943b9d",
+        "type": "group",
+        "z": "48135a54600713e8",
+        "name": "custom - answers",
+        "style": {
+            "fill": "#0070c0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "00f78131ea424c01",
+            "6b95d746ebd3ebaa",
+            "1b5a47975638ed09"
+        ],
+        "x": 114,
+        "y": 699,
+        "w": 930,
+        "h": 82
+    },
+    {
+        "type": "http in",
+        "name": "",
+        "url": "/voice/answer/:file",
+        "method": "get",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 240,
+        "y": 740,
+        "wires": [
+            [
+                "6b95d746ebd3ebaa"
+            ]
+        ],
+        "id": "00f78131ea424c01",
+        "z": "48135a54600713e8",
+        "g": "26ecdf5779943b9d"
+    },
+    {
+        "type": "function",
+        "name": "answer",
+        "func": "\n// spoken answer (WAV) asked by a voice device: url given in the TTS_END event of the session\n\nconst engine = global.get('voice_engine', 'memoryOnly');\nconst wav = engine ? engine.answer(msg.req.params.file) : null;\n\nif (!wav) {\n    msg.statusCode = 404;\n    msg.headers = { 'Content-Type': 'text/plain' };\n    msg.payload = 'not found';\n\n    return msg;\n}\n\nmsg.statusCode = 200;\nmsg.headers = { 'Content-Type': 'audio/wav', 'Content-Length': wav.length, 'Cache-Control': 'no-store' };\nmsg.payload = wav;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 740,
+        "wires": [
+            [
+                "1b5a47975638ed09"
+            ]
+        ],
+        "id": "6b95d746ebd3ebaa",
+        "z": "48135a54600713e8",
+        "g": "26ecdf5779943b9d"
+    },
+    {
+        "type": "http response",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 650,
+        "y": 740,
+        "wires": [],
+        "id": "1b5a47975638ed09",
+        "z": "48135a54600713e8",
+        "g": "26ecdf5779943b9d"
+    },
+    {
+        "id": "cdc97503d85d97fb",
+        "type": "ui-page",
+        "name": "devices",
+        "ui": "df7710b4b2c4e55b",
+        "path": "/",
+        "icon": "microphone-variant",
+        "layout": "notebook",
+        "theme": "877e716e64a22cf1",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "cbdeeb596c292fed",
+        "type": "ui-group",
+        "name": "Boîtiers",
+        "page": "cdc97503d85d97fb",
+        "width": "12",
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default",
+        "keepLoaded": false
+    },
+    {
+        "id": "d01ea2f89d1050ad",
+        "type": "ui-group",
+        "name": "Tester une phrase",
+        "page": "cdc97503d85d97fb",
+        "width": "4",
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default",
+        "keepLoaded": false
+    },
+    {
+        "id": "910317d8e89b8b98",
+        "type": "ui-group",
+        "name": "Dernières phrases",
+        "page": "cdc97503d85d97fb",
+        "width": "12",
+        "height": 1,
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default",
+        "keepLoaded": false
+    },
+    {
+        "id": "0eb78516db5319ed",
+        "type": "group",
+        "z": "48135a54600713e8",
+        "name": "custom - devices",
+        "style": {
+            "fill": "#0070c0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "a253a071e3a0ba07",
+            "0dcfe0dab59c1809",
+            "a43a5c0877f88dc9",
+            "7a492d88d865cbf4",
+            "77818e8b10f5374d",
+            "a1aed7cb20839482",
+            "71f7b8053ef24d82"
+        ],
+        "x": 114,
+        "y": 819,
+        "w": 1160,
+        "h": 202
+    },
+    {
+        "type": "link in",
+        "name": "custom - devices",
+        "links": [
+            "d0ee4b417bfa2bb7",
+            "ddab942f6d49a661",
+            "7b8c90c12d4dd5e8"
+        ],
+        "x": 155,
+        "y": 880,
+        "wires": [
+            [
+                "0dcfe0dab59c1809"
+            ]
+        ],
+        "id": "a253a071e3a0ba07",
+        "z": "48135a54600713e8",
+        "g": "0eb78516db5319ed"
+    },
+    {
+        "type": "function",
+        "name": "list",
+        "func": "\n// Boîtiers page: voice devices and last sentences\n// output 1: voice devices table / output 2: last sentences table\n\nconst status = global.get('voice_status', 'memoryOnly') || { 'satellites': {}, 'history': [] };\nconst cfg = global.get('describe.voice', 'memoryOnly') || {};\n\nconst texts = { 'online': 'Connecté', 'connecting': 'Connexion...', 'offline': 'Déconnecté', 'error': 'Erreur' };\nconst time = t => new Date(t).toLocaleTimeString('fr-FR', { 'timeZone': env.get('TZ') || 'Europe/Paris', 'hour': '2-digit', 'minute': '2-digit', 'second': '2-digit' });\n\nlet sats = Object.values(status.satellites || {}).map(s => ({\n    'name': s.name,\n    'room': s.room,\n    'host': s.host,\n    'state': (texts[s.state] || s.state) + (s.busy ? ' (écoute)' : '') + (s.error ? ' : ' + s.error : ''),\n    'since': s.since ? time(s.since) : ''\n}));\nif (sats.length === 0) {\n    sats = [{ 'name': 'Aucun boîtier configuré (variable DKNR_VOICE_HOST)', 'room': '', 'host': '', 'state': '', 'since': '' }];\n}\nif (!cfg.url) {\n    sats.push({ 'name': 'Variable DKNR_VOICE_URL manquante : les boîtiers ne pourront pas lire les réponses', 'room': '', 'host': '', 'state': '', 'since': '' });\n}\n\nconst history = (status.history || []).map(h => ({\n    'time': time(h.time),\n    'satellite': h.satellite,\n    'heard': h.heard || '-',\n    'action': h.action || '-',\n    'say': (h.ok ? '' : '⚠ ') + (h.say || ''),\n    'ms': h.ms ? (h.ms / 1000).toFixed(1).replace('.', ',') + ' s' : ''\n}));\n\nreturn [{ 'payload': sats }, { 'payload': history }];\n",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 880,
+        "wires": [
+            [
+                "a43a5c0877f88dc9"
+            ],
+            [
+                "7a492d88d865cbf4"
+            ]
+        ],
+        "id": "0dcfe0dab59c1809",
+        "z": "48135a54600713e8",
+        "g": "0eb78516db5319ed"
+    },
+    {
+        "type": "ui-table",
+        "group": "cbdeeb596c292fed",
+        "name": "custom - devices - table",
+        "label": "",
+        "order": 1,
+        "width": "12",
+        "height": 0,
+        "maxrows": 0,
+        "passthru": false,
+        "autocols": false,
+        "showSearch": false,
+        "deselect": true,
+        "selectionType": "none",
+        "columns": [
+            {
+                "title": "Nom",
+                "key": "name",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "start"
+            },
+            {
+                "title": "Pièce",
+                "key": "room",
+                "keyType": "key",
+                "type": "text",
+                "width": "15%",
+                "align": "start"
+            },
+            {
+                "title": "Adresse",
+                "key": "host",
+                "keyType": "key",
+                "type": "text",
+                "width": "15%",
+                "align": "start"
+            },
+            {
+                "title": "Etat",
+                "key": "state",
+                "keyType": "key",
+                "type": "text",
+                "width": "25%",
+                "align": "start"
+            },
+            {
+                "title": "Depuis",
+                "key": "since",
+                "keyType": "key",
+                "type": "text",
+                "width": "12%",
+                "align": "start"
+            }
+        ],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "className": "dknr-headers",
+        "x": 600,
+        "y": 860,
+        "wires": [
+            []
+        ],
+        "id": "a43a5c0877f88dc9",
+        "z": "48135a54600713e8",
+        "g": "0eb78516db5319ed"
+    },
+    {
+        "type": "ui-table",
+        "group": "910317d8e89b8b98",
+        "name": "custom - devices - history",
+        "label": "",
+        "order": 1,
+        "width": "12",
+        "height": 0,
+        "maxrows": 0,
+        "passthru": false,
+        "autocols": false,
+        "showSearch": false,
+        "deselect": true,
+        "selectionType": "none",
+        "columns": [
+            {
+                "title": "Heure",
+                "key": "time",
+                "keyType": "key",
+                "type": "text",
+                "width": "10%",
+                "align": "start"
+            },
+            {
+                "title": "Boîtier",
+                "key": "satellite",
+                "keyType": "key",
+                "type": "text",
+                "width": "12%",
+                "align": "start"
+            },
+            {
+                "title": "Entendu",
+                "key": "heard",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "start"
+            },
+            {
+                "title": "Action",
+                "key": "action",
+                "keyType": "key",
+                "type": "text",
+                "width": "20%",
+                "align": "start"
+            },
+            {
+                "title": "Réponse",
+                "key": "say",
+                "keyType": "key",
+                "type": "text",
+                "width": "25%",
+                "align": "start"
+            },
+            {
+                "title": "Durée",
+                "key": "ms",
+                "keyType": "key",
+                "type": "text",
+                "width": "8%",
+                "align": "start"
+            }
+        ],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "className": "dknr-headers",
+        "x": 600,
+        "y": 900,
+        "wires": [
+            []
+        ],
+        "id": "7a492d88d865cbf4",
+        "z": "48135a54600713e8",
+        "g": "0eb78516db5319ed"
+    },
+    {
+        "type": "ui-form",
+        "name": "custom - devices - test",
+        "group": "d01ea2f89d1050ad",
+        "label": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Phrase reconnue (ex : SET|test|1)",
+                "key": "text",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "text": ""
+        },
+        "submit": "Exécuter",
+        "cancel": "",
+        "resetOnSubmit": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "passthru": false,
+        "dropdownOptions": [],
+        "x": 220,
+        "y": 960,
+        "wires": [
+            [
+                "a1aed7cb20839482"
+            ]
+        ],
+        "id": "77818e8b10f5374d",
+        "z": "48135a54600713e8",
+        "g": "0eb78516db5319ed"
+    },
+    {
+        "type": "change",
+        "name": "test",
+        "rules": [
+            {
+                "t": "set",
+                "p": "action",
+                "pt": "msg",
+                "to": "test",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.text",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 960,
+        "wires": [
+            [
+                "71f7b8053ef24d82"
+            ]
+        ],
+        "id": "a1aed7cb20839482",
+        "z": "48135a54600713e8",
+        "g": "0eb78516db5319ed"
+    },
+    {
+        "type": "link out",
+        "name": "custom - devices - test",
+        "mode": "link",
+        "links": [
+            "9d48222feda75467"
+        ],
+        "x": 595,
+        "y": 960,
+        "wires": [],
+        "id": "71f7b8053ef24d82",
+        "z": "48135a54600713e8",
+        "g": "0eb78516db5319ed"
+    }
+]

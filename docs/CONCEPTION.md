@@ -29,7 +29,7 @@ Mot d'activation → captation de la phrase → reconnaissance (voix vers texte)
 ### Le client de l'API ESPHome
 
 * **[esphome-client](https://github.com/hjdhjd/esphome-client)** (npm, licence ISC, version 2.1.0 du 6 novembre 2026, projet actif) : client Node.js de l'API native ESPHome, sans dépendance externe, chiffrement Noise compris. Il gère l'assistant vocal : abonnement (`subscribeVoiceAssistant`, flux audio par l'API), demande de session venue du boîtier (`voiceAssistantRequest`, avec le mot d'activation), réception du son (`voiceAssistantAudio`), envoi des événements de session (`RUN_START`, `STT_START`, `STT_END`, `INTENT_END`, `TTS_END`, `ERROR`...), configuration des mots d'activation, annonces.
-* **Pré-requis** : ESPHome 2025.10 ou plus récent, **Node.js 22.20 ou plus récent** (à vérifier sur l'image `nodered/node-red` utilisée).
+* **Pré-requis** : ESPHome 2025.10 ou plus récent, **Node.js 22.20 ou plus récent** (l'image `nodered/node-red:5.0` embarque Node.js 24). Module ESM uniquement.
 
 ### La reconnaissance vocale
 
@@ -54,9 +54,21 @@ Rhasspy 2.5 (protocole Hermes sur MQTT) fonctionnait bien mais n'est plus mainte
 ## Etat d'avancement
 
 * **Matériel** : boîtiers ESP32 retenus (novembre 2026), Voice PE retenu. Un boîtier commandé pour le prototype (en attente de stock, novembre 2026).
-* **Dépôt** : `dknr-domotic/dknr-voice` créé, ce document est le premier contenu.
-* Rien n'est encore développé.
-
+* **Squelette du prototype (version 0.1)**, écrit avant de recevoir le boîtier :
+    * structure du dépôt reprise de dknr-matter (onglet `common`, page **Configurer**, catalogue des entités DKNR) ;
+    * `lib/wyoming.js` : client Wyoming sans dépendance (reconnaissance, synthèse, WAV), testé contre la bibliothèque Wyoming officielle ;
+    * `lib/voice.js` : moteur (connexion aux boîtiers avec `esphome-client`, session vocale, fin de phrase, ordres MQTT, questions, réponses servies en HTTP), testé avec un faux boîtier et de faux services Wyoming ;
+    * nœud `voice` de l'onglet `custom` et page **Boîtiers** (état, dernières phrases, test d'une phrase), vérifiés dans Node-RED 5 (démarrage, redéploiement) ;
+    * `docker-compose.yaml` à trois conteneurs, image `dknr-voice-vosk` construite depuis `docker/vosk` ;
+    * `esphome/dknr-voice.yaml` : configuration du boîtier (package officiel 26.9.0), validée par ESPHome 2026.10 ;
+    * `sentences/fr.yaml` : phrases de test (prise de test, température du salon), vérifiées avec l'analyseur de wyoming-vosk ;
+    * configuration par variables d'environnement en attendant les pages (`DKNR_VOICE_HOST`, `DKNR_VOICE_KEY`, `DKNR_VOICE_URL`, `DKNR_VOICE_DEVICES`...).
+* **Reste à valider avec le boîtier** : flash, connexion chiffrée, session complète, format audio des réponses (WAV 22 kHz de Piper lu directement ?), réglage de la fin de phrase, qualité de reconnaissance dans la pièce.
+* **Points relevés** :
+    * `esphome-client` n'est publié qu'en module ESM : il est chargé par `import()` depuis `lib/voice.js`. L'image `nodered/node-red:5.0` embarque Node.js 24, au-delà des 22.20 demandés.
+    * l'image officielle `rhasspy/wyoming-vosk` est restée à la version 1.5.0 (pas de transcriptions partielles, ancienne correction) : dknr-voice construit sa propre image depuis un commit figé de la version 1.6.0.
+    * en mode limité, wyoming-vosk ramène **toujours** une phrase au modèle le plus proche (« ouvre le volet » devient « allume la prise de test ») : le prototype ajoute `--allow-unknown` pour rejeter les phrases hors domaine. A vérifier sur de vrais enregistrements, repli sur le mode corrigé (`--correct-sentences 0.2` sans `--limit-sentences`) sinon.
+    * le package officiel du boîtier, même figé à 26.9.0, prend ses sons (bip du mot d'activation, minuteur...) sur la branche `dev`.
 
 ## Choix à faire
 
