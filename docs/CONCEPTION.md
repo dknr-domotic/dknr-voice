@@ -94,8 +94,8 @@ Première version, par type :
 | Type | Exemples | Action (`out`) |
 | --- | --- | --- |
 | lumière, prise | « allume / éteins [la lumière du] {appareil} » | `1` / `0` |
-| variateur | « allume / éteins {appareil} », « mets {appareil} à {n} [pour cent] » | `99` / `0` / `n` |
-| volet | « ouvre / ferme {appareil} », « mets {appareil} à {n} [pour cent] » | `99` / `0` / `n` |
+| variateur | « allume / éteins {appareil} », « mets {appareil} à {n} [pour cent] » | `100` / `0` / `n` (niveaux DKNR de 0 à 100) |
+| volet | « ouvre / ferme {appareil} », « mets {appareil} à {n} [pour cent] » | `100` / `0` / `n` |
 | température, humidité | « quelle est la température [du / de la] {pièce} » | lecture de la dernière valeur, réponse parlée |
 | ouverture | « est-ce que {appareil} est ouvert » | lecture, réponse parlée |
 
